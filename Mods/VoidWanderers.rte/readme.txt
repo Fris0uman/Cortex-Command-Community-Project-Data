@@ -1,1 +1,0 @@
-saving the game to an empty slot is broken at the moment! each save slot is occupied by an empty "dummy" save which need to be overridden to save your game.
