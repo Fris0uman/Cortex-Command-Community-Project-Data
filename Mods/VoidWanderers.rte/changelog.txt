@@ -1,0 +1,63 @@
+27/06/2013
+	- Published by Weegee
+xx/xx/2020
+	- CCCP fork started by 4zK! Notable changes:
+		- Faction data is now loaded automagically! goodbye compatibility files!
+		- some minor aesthetic and gameplay-related changes, most notably artificial gravity inside ships
+12/05/2020
+	- CCCP v0.1.0-pre2 version published
+	- fixed actor spawn bug (bye bye debug skeletons)
+	- added some fine spaceship modules gathered and conjured by MaximDude
+	- re-enabled compatibility with latest Map Pack by Gotcha
+	- created Dropbox link
+20/06/2020
+	- fixed bug in Lib_Storage involving black market listings when no artifacts are loaded
+	- changed item menu displays from MO spawning to bitmap primitives
+21/06/2020
+	- minor tweaks and fixes to black market listing system and artifact containers
+	- factions now pick the starter primary weapon properly (Ronin no longer gets the Chainsaw as starter primary, lol)
+
+	to-do: re-enable faction file support (edit: done)
+21/09/2020
+	- added asteroid random encounter
+	- tweaked hostile drone encounter to be slightly less obnoxious
+	- fixed melee weapons (Ronin chainsaw) from being selected as starter primary
+	- fixed mining mission bug involving new "Tools - Diggers" group
+27/09/2020
+	- combat rank system is getting ready! note: don't save too often, as it degrades the combat rank of your units! (temporary feature until I figure out a better way to discourage save scum behavior)
+	- player gold increases AI skill slightly (temporary feature until I figure out better endgame mechanics)
+	- reworked AGS (artificial gravity system) - awaiting dynamics
+03/10/2020
+	- combat rank set to decrease only if difficulty is higher than normal
+	- fixed some flub involving enemy spawns, my bad
+	- "assasination" mission now spawns "RPG" enemy brains at higher difficulties (edit: bugged, reverted)
+	to-do: fix bug where "ally" actors turn into regular ones and get beamed into the ship
+28/12/2020
+	- preparing mod.io release (removing Dropbox link)
+20/03/2021
+	- fixed gold dig mission advancing enemy gold gathering each time a craft returns
+22/03/2021
+	- fixed actor storage and item shop dismissing item modules, causing mixups with items with the same name
+26/06/2021
+	- player controlled actor can now pick up items in zero g (cccp pre4+)
+06/07/2021
+	- you can now return to your vessel via craft, however there's no situation where this could happen, yet
+11/07/2021
+	- changes to combat XP distribution
+	- the CPU now hunts for actors in a more sophisticated fashion
+11/10/2021
+	- lost limbs will be replaced with prosthetics instead of getting reset upon entering/exiting vessel (fix your limbs by entering the clone vat)
+xx/11/2021
+	- lost limbs will not be replaced automatically and will require you to find prosthetic limbs
+	- lost limbs will regenerate automatically upon entering a vat only if the difficulty setting is below medium
+	- removed rogue drone encounter for being obnoxious
+	- Reavers now work better
+	- "heal-others" brain skill is now the same as a medic drone
+08/12/2021
+	- fixed starter unit logic so that it tries to pick the cheapest humanoid actor instead of just assuming the first found actor as the starter
+11/12/2021
+	- fixed bug where items would be saved into storage via GetModuleAndPresetName(), creating duplicates
+24/02/2022
+	- prepping for 4th community project prerelease
+0X/03/2022
+	- fixed bugs where the first item in an actor's inventory would disappear when spawning
